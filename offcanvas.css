@@ -22,10 +22,12 @@ body {
     transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+    height: 11rem;
   }
   .offcanvas-collapse.open {
-    -webkit-transform: translateX(-1rem);
-    transform: translateX(-1rem); /* Account for horizontal padding on navbar */
+    -webkit-transform: translateX(13rem);
+    height: 11rem;
+    transform: translateX(13rem); /* Account for horizontal padding on navbar */
   }
 }
 
