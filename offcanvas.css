@@ -68,7 +68,25 @@ body {
   font-weight: 500;
   color: var(--gray-dark);
 }
-
+.image{
+  object-fit: contain;
+  height: 20rem;
+  width: 100%;
+}
+#thumbnail{
+  position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20rem;
+    
+}
+.header{
+  background: url('assets/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 p{
   margin: 1rem;
 }
@@ -94,9 +112,4 @@ h3{
 .lh-100 { line-height: 1; }
 .lh-125 { line-height: 1.25; }
 .lh-150 { line-height: 1.5; }
-.image{
-  position: relative;
-  height: 17rem;
-  width: 100%;
-  margin: 1rem;
-}
+
