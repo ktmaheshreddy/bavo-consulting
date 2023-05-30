@@ -129,12 +129,6 @@ body {
   color: #074e48;
 }
 
-.header {
-  background: url('assets/contact.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
 a:hover {
   text-decoration: none;
   color: #074e48;
