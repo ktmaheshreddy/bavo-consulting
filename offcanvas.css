@@ -68,6 +68,10 @@ body {
   color: var(--blue);
 }
 
+#container {
+  position: relative;
+}
+
 .learn-more {
   padding-top: .75rem;
   padding-bottom: .75rem;
@@ -99,13 +103,41 @@ body {
   bottom: 0;
   right: 0;
   height: 20rem;
+}
 
+.banner {
+  position: relative;
+}
+
+.text-label {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 1.2rem;
+  transform: translate(-50%, -50%);
+  background-color: #36b3a8;
+  padding: .7rem;
+  border-radius: 25px;
+  color: white;
+}
+
+.text-label:hover {
+  background-color: #074e48;
+}
+
+.text-label-color {
+  color: #074e48;
 }
 
 .header {
   background: url('assets/contact.jpg');
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #074e48;
 }
 
 p {
