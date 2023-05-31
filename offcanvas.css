@@ -120,14 +120,16 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
+  text-align: center;
   font-size: 3.5rem;
   transform: translate(-50%, -50%);
   color: rgb(201, 183, 190);
 }
+
 .about-text {
   position: absolute;
   text-align: center;
-  top: 53%;
+  top: 55%;
   max-width: 400px;
   left: 50%;
   font-size: 1.2rem;
