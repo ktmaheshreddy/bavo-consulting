@@ -86,8 +86,7 @@ body {
 }
 
 .image {
-  object-fit: contain;
-  height: 20rem;
+  position: relative;
   width: 100%;
 }
 
@@ -96,13 +95,10 @@ body {
   width: 100%;
 }
 
-#thumbnail {
+.thumbnail {
   position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   height: 20rem;
+  overflow: hidden;
 }
 
 .banner {
