@@ -116,6 +116,22 @@ body {
   border-radius: 25px;
   color: white;
 }
+.we-are-text {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  font-size: 3.5rem;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 183, 190);
+}
+.about-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-size: 1.2rem;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 183, 190);
+}
 
 .text-label:hover {
   background-color: #074e48;
