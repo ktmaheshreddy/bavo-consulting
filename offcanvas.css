@@ -141,7 +141,7 @@ body {
   text-align: center;
   font-size: 3.5rem;
   transform: translate(-50%, -50%);
-  color: rgb(251, 14, 99);
+  color: #3EB489;
 }
 
 .about-text {
@@ -151,7 +151,7 @@ body {
   left: 50%;
   font-size: 1.2rem;
   transform: translate(-50%, -50%);
-  color: rgb(251, 14, 99);
+  color: #3EB489;
 }
 
 .text-label:hover {
